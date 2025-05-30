@@ -3,7 +3,7 @@ https://crt-75hd.vercel.app
 
 ![image](https://user-images.githubusercontent.com/93302780/208246505-fe1af047-9350-49bb-b93a-e61800ad4144.png)
 
-
+```py
 import Jetson.GPIO as GPIO
 import time
 
@@ -86,3 +86,4 @@ except KeyboardInterrupt:
 finally:
     GPIO.cleanup()
     print("GPIO cleaned up")
+    ```
